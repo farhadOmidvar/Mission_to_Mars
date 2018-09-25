@@ -1,0 +1,75 @@
+.banner {
+	background-image: url('images/mission_to_mars.jpg');
+	min-height: 750px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+.banner-text {
+	padding-top: 18%;
+}
+
+.banner-text h1{
+	font-family: "Source Sans Pro";
+	color: #ffffff;
+	font-size: 53px;
+	letter-spacing: 10px;
+	font-weight: 600;
+}
+
+.banner-text a{
+	color: #8d8d8d;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+}
+
+.down-arrow{
+	padding-top: 100px;
+	opacity: 0.5;
+}
+
+.card{
+	border:none; 
+}
+
+#img-table{
+	background-color: #ffffff;
+}
+
+
+.card-body {
+	background-color: #f1f2f4;
+	position: relative;
+	border: 0;
+	margin: 0;
+	padding: 50px 15% 0;
+	padding-bottom: 30px;
+}
+
+.news h5 h6 {
+	color: #000;
+	font: 27px "Source Sans Pro";
+}
+.news p {
+	color: #6c7279;
+	display: block;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.news a{
+	color: #8d8d8d;
+	font-size: 12px;
+}
+
+.hemisphere{
+	margin: auto;
+}
