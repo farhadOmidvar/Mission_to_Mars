@@ -88,3 +88,27 @@ h3{
     background-color: #000;
     border: 0;
 }
+
+.btn-custom:hover {
+    box-shadow: 0 0 1em #ffe4be;
+}
+
+
+.modal-content {
+    background-color: #000;
+    color:#ffe4be;
+    border-radius: 0rem;
+}
+
+#close-botton{
+	color: #ffe4be;
+}
+
+
+.modal-dialog {
+    max-width: 50rem;
+}
+
+.modal-body {
+    padding: 0rem;
+}
