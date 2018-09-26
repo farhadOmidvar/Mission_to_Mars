@@ -65,7 +65,7 @@
         <div class="row">
           {% for hem in mars.hemisphere_image_urls %}
             <div class="col-md-3">
-              <button type="button" class="btn-custom" data-toggle="modal" data-target="#{{ hem.title.replace(' ','-') }}"><img src="{{ hem.img_url }}" class=" img-fluid"  alt="{{hem.title}}">
+              <button type="button" class="btn-custom" data-toggle="modal" data-target="#{{ hem.title.replace(' ','-') }}"><img src="{{ hem.img_url }}" class="img-thumbnail"  alt="{{hem.title}}">
               </button>
               <h6 class="card-text" align="center" id="font">{{ hem.title }}</h6>
             </div>
